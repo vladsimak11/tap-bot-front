@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tap-bot-front/static/css/main.7acaea2f.css",
+    "main.js": "/tap-bot-front/static/js/main.07d3183d.js",
+    "index.html": "/tap-bot-front/index.html",
+    "main.7acaea2f.css.map": "/tap-bot-front/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/tap-bot-front/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
