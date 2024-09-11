@@ -1,16 +1,22 @@
+import React, { useState } from 'react';
+
+import { AppBlock, ButtonTap } from './App.styled';
+
 export const App = () => {
+  const [score, setScore] = useState(0);
+
+  const handleClick = () => {
+    setScore(score + 1);
+  };
+
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <AppBlock>
+      <header>
+        <h1>Tap Bucket Game</h1>
+        <p>Score: {score}</p>
+        <ButtonTap onClick={handleClick}>Tap me!</ButtonTap>
+      </header>
+    </AppBlock>
   );
-};
+}
+
