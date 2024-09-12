@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { AppBlock, ButtonTap } from './App.styled';
+import { AppBlock, ButtonTap, AppHeader, AppScore } from './App.styled';
 
 export const App = () => {
   const [score, setScore] = useState(0);
@@ -12,11 +12,10 @@ export const App = () => {
   return (
     <AppBlock>
       <header>
-        <h1>Tap Bucket Game</h1>
-        <p>Score: {score}</p>
+        <AppHeader>Tap Bucket Game</AppHeader>
+        <AppScore>Score: {score}</AppScore>
         <ButtonTap onClick={handleClick}>Tap me!</ButtonTap>
       </header>
     </AppBlock>
   );
-}
-
+};
