@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const AppBlock = styled.div`
   text-align: center;
   background-color: blueviolet;
+  height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +31,7 @@ export const ButtonTap = styled.button`
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out;
   outline: none;
+  -webkit-tap-highlight-color: transparent;
 
   &:hover {
     transform: scale(1.1);
