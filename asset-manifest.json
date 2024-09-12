@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/tap-bot-front/static/js/main.d86a4769.js",
+    "main.js": "/tap-bot-front/static/js/main.cb4aa1f3.js",
     "index.html": "/tap-bot-front/index.html",
-    "main.d86a4769.js.map": "/tap-bot-front/static/js/main.d86a4769.js.map"
+    "main.cb4aa1f3.js.map": "/tap-bot-front/static/js/main.cb4aa1f3.js.map"
   },
   "entrypoints": [
-    "static/js/main.d86a4769.js"
+    "static/js/main.cb4aa1f3.js"
   ]
 }
